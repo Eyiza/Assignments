@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Registration</h1>
+    <form>
+      <label for="fname">First Name:</label>
+      <input type="text" name="fname" id="fname" class="input" placeholder="Enter your first name" required><br>
+      <label for="lname">Last Name:</label>
+      <input type="text" name="lname" id="lname" class="input" placeholder="Enter your last name" required><br>
+      <label for="tel">Phone Number:</label>
+      <input type="tel" name="tel" id="tel" class="input" placeholder="Enter your phone number" required><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" class="input" placeholder="Enter your email" required><br>
+
+      <label for="gender">Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="unknown" name="gender" value="unknown">
+      <label for="unknown">Prefer not to answer</label><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="dob" id="dob" class="input" required><br>
+
+      <label for="color">Best Color:</label>
+      <input type="color" name="color" id="color" required><br>
+
+      <input type="submit" id="submit" value="Register"><br>
+    </form>
+    <p class="message"> Already have an account? <a href="login.html">Login!</a> </p>
+  </div>
+</body>
+
+</html>

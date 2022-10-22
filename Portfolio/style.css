@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* body {
+  background: #ccc;
+} */
+img {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+a {
+  text-decoration: none;
+  color: #26286e;
+}
+a:hover {
+  color: #1a20c7;
+}
+section {
+  margin: 20px;
+  margin-top: 40px;
+}
+footer {
+  margin: 20px;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none !important;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.about-text {
+   width: 57%;
+}
+
+#contact {
+  margin: 20px;
+}
+
+li {
+  list-style-type: circle;
+  margin-left: -20px;
+}

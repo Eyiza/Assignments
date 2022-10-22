@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+label{
+  font-size: 14px;
+  font-weight: bold;
+}
+.container{
+  width: 75%;
+  margin: 20px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.container h1{
+  text-align: center;
+}
+.container .input{
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#male, #female, #unknown {
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: 100;
+}
+#unknown {
+  margin-bottom: 20px;
+}
+.container #submit{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #26286e;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container #submit:hover{
+    background-color: #272a91;
+}
+.message {
+  text-align: center;
+}
+.container a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.container a:hover{
+  color: #272a91;
+}
+.checkmark {
+  color:#26286e;
+}
