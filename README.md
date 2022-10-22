@@ -1,1 +1,1 @@
-### This is a folder containing my Zuri tasks.
+### This is a folder containing the week 3 tasks of the Zuri program.
